@@ -1,4 +1,8 @@
 DesignStagingApp::Application.routes.draw do
+  get "pages/landing"
+
+  get "pages/resource"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
