@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/meducation/css_toolkit.git
+  revision: a1585b5be759d4a671c653e830d89019ddfd45b4
+  specs:
+    css_toolkit (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -103,6 +109,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  css_toolkit!
   jquery-rails
   rails (= 3.2.14)
   sass-rails (~> 3.2.3)
