@@ -82,4 +82,43 @@ body,
   background: #666;
 }
 
+.voteup, .votedown {
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 8rem;
+}
+.voteup {
+  background: darkblue;
+}
+.votedown {
+  background: lightblue;
+}
+.votecount {
+  font-size: 2.6rem;
+  text-align: center;
+}
+
+.commentvoteup, .commentvotedown {
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 2rem;
+}
+.commentvoteup {
+  background: green;
+}
+.commentvotedown {
+  background: red;
+}
+.commentvotecount {
+  display: inline-block;
+  padding: 2px 5px ;
+  font-size: 1.6rem;
+}
+
 @import 'comment.css.scss';
