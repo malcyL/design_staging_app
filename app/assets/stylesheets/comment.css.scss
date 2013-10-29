@@ -8,17 +8,20 @@
 
         .header {
             background: #eee;
+            padding:1rem 0;
             a.name {
                 font-size: 1.4rem;
+                margin-left:1rem;
                 color:#000;
             }
             &>* {
-                padding:1em;
+                margin:0 0.5rem;
             }
         }
 
         .contents {
             font-size: 1.4rem;
+            padding:1rem;
         }
 
         .role {
@@ -26,7 +29,16 @@
         }
 
         .footer {
-          font-size: 1.2rem;
+            border-top:1px solid #eee;
+            font-size: 1.2rem;
+            padding:1rem;
+            color:#aaa;
+            .spam, .report {
+                color:#aaa;
+            }
+            .spam {
+                padding-right:1rem;
+            }
         }
     }
 }
