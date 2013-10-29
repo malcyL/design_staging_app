@@ -1,8 +1,9 @@
 GIT
   remote: git://github.com/meducation/css_toolkit.git
-  revision: a1eb1adf27baeb1abcb0da9cc452100779f0dfb1
+  revision: 5415f2ac426d77fbf14d67b988770a8ea65d52a5
   specs:
     css_toolkit (0.0.1)
+      font-awesome-sass
 
 GEM
   remote: https://rubygems.org/
@@ -45,6 +46,8 @@ GEM
     coffee-script-source (1.6.3)
     erubis (2.7.0)
     execjs (2.0.2)
+    font-awesome-sass (4.0.1)
+      sass-rails (>= 3.1.1)
     haml (4.0.3)
       tilt
     haml-rails (0.4)
