@@ -1,15 +1,31 @@
-.comment-header a {
-  font-size: 1.6rem;
-}
+.comment {
+    .photo {
+        border-radius:100%;
+        border:1px solid #aaa;
+    }
+    .container {
+        border: 1px solid #ddd;
 
-.comment-contents {
-  font-size: 1.4rem;
-}
+        .header {
+            background:#ddd;
+            a {
+                font-size: 1.6rem;
+                &.name {
+                    color:black;
+                }
+            }
+        }
 
-.comment .role {
-  font-size: 1.2rem;
-}
+        .contents {
+            font-size: 1.4rem;
+        }
 
-.comment-footer {
-  font-size: 1.2rem;
+        .role {
+            font-size: 1.2rem;
+        }
+
+        .footer {
+            font-size: 1.2rem;
+        }
+    }
 }

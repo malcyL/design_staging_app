@@ -1,20 +1,25 @@
 .comment.pure-g-r{style: 'background: white;'}
     .pure-u-1-8
-        %img{src: 'http://placekitten.com/50/50'}
-    .comment-container.pure-u-7-8
-        .comment-header.pure-g-r
-            %a.pure-u-1-6{href: '#'} Jeremy Walker
-            .pure-u-1-6
-                %a.reputation{href: '#'}
-                    %i.fa.fa-star
-                    40580
-            %a.pure-u-1-6{href: '#'} Admin
-            %p.role.pure-u-1-3 Co-founder Meducation
-            / = render "layouts/votes"
-            .pure-u-1-6
-        .comment-contents
-            Bacon ipsum dolor sit amet pancetta ribeye fatback, tail tongue brisket capicola chuck andouille jowl. Swine ball tip ribeye tail.
-        .comment-footer.pure-g-r
-            %p.pure-u-2-3 about 1 year ago
-            %a.pure-u-1-6{href: '#'} Mark as spam
-            %a.pure-u-1-6{href: '#'} Report Comment
+        %img.photo{src: 'http://placekitten.com/50/50'}
+    .pure-u-7-8
+        .container
+            .header.pure-g-r
+                .pure-u-1-6<>
+                    %a.name{href: '#'} Jeremy Walker
+                .pure-u-1-6>
+                    %a.reputation{href: '#'}
+                        %i.fa.fa-star
+                        40580
+                .pure-u-1-6
+                    %a.badge{href: '#'}
+                        %i.fa.fa-pagelines
+                        Admin
+                %p.role.pure-u-1-3 Co-founder Meducation
+                / = render "layouts/votes"
+                .pure-u-1-6
+            .contents
+                Bacon ipsum dolor sit amet pancetta ribeye fatback, tail tongue brisket capicola chuck andouille jowl. Swine ball tip ribeye tail.
+            .footer.pure-g-r
+                %p.pure-u-2-3 about 1 year ago
+                %a.pure-u-1-6{href: '#'} Mark as spam
+                %a.pure-u-1-6{href: '#'} Report Comment

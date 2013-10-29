@@ -19,9 +19,9 @@ body,
   min-height: 0;
 }
 
-.container {
+#container {
   margin: auto;
-  width: 1200px;
+  width: 700px;
 }
 
 @import 'comment.css.scss';
@@ -37,4 +37,8 @@ body,
   border-radius: 25px;
   background: #e05e20;
   color: #fff;
+}
+
+.badge {
+
 }
