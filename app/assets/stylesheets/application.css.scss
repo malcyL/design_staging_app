@@ -1,10 +1,40 @@
+@import 'pure-min.css';
 @import 'css_toolkit.css.scss';
 
 body {
   margin: 0;
 }
 
+body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"],
+.pure-g-r {
+  /* Set you're content font stack here: */
+  font-family: "museo-sans";
+  letter-spacing: 0;
+}
+
+.pure-g-r {
+  height: auto;
+  min-height: 0;
+}
+
 .container {
   margin: auto;
   width: 1200px;
+}
+
+@import 'comment.css.scss';
+
+/*
+ * Site-wide links/buttons
+ */
+
+.reputation {
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 25px;
+  background: #e05e20;
+  color: #fff;
 }

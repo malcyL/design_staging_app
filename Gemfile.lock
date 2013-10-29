@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/meducation/css_toolkit.git
-  revision: a1585b5be759d4a671c653e830d89019ddfd45b4
+  revision: a1eb1adf27baeb1abcb0da9cc452100779f0dfb1
   specs:
     css_toolkit (0.0.1)
 
