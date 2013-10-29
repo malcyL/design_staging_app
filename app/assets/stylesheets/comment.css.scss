@@ -4,15 +4,16 @@
         border:1px solid #aaa;
     }
     .container {
-        border: 1px solid #ddd;
+        border:1px solid #ccc;
 
         .header {
-            background:#ddd;
-            a {
-                font-size: 1.6rem;
-                &.name {
-                    color:black;
-                }
+            background: #eee;
+            a.name {
+                font-size: 1.4rem;
+                color:#000;
+            }
+            &>* {
+                padding:1em;
             }
         }
 
@@ -21,11 +22,11 @@
         }
 
         .role {
-            font-size: 1.2rem;
+          font-size: 1.2rem;
         }
 
         .footer {
-            font-size: 1.2rem;
+          font-size: 1.2rem;
         }
     }
 }
