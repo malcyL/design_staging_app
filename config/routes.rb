@@ -1,5 +1,5 @@
 DesignStagingApp::Application.routes.draw do
-  pages = [:landing, :resource, :comments, :vote, :footer]
+  pages = [:landing, :resource, :comments, :vote, :footer, :content]
 
   pages.each do |page|
     get page, to: "pages##{page}"
