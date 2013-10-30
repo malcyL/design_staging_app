@@ -1,6 +1,2 @@
 Haml::Template::options[:ugly] = true
 Haml::Template::options[:remove_whitespace] = true
-<<<<<<< HEAD
-
-=======
->>>>>>> WIP
